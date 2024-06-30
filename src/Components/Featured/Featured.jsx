@@ -39,7 +39,7 @@ const datalist =[
 ]
 const Featured = () => {
     return (
-        <div className="my-12">
+        <div className="my-24">
             {/* header */}
             <div className="text-center space-y-2">
                 <h1 className="text-3xl md:text-5xl font-mono font-bold">Featured Property Types</h1>
