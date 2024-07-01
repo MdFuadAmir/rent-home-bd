@@ -1,3 +1,4 @@
+import Agents from "../Agents/Agents";
 import Awards from "../Awards/Awards";
 import Featured from "../Featured/Featured";
 import Hero from "../Hero/Hero";
@@ -13,6 +14,7 @@ const Home = () => {
             <RecentPoparty/>
             <Awards/>
             <Location/>
+            <Agents/>
         </div>
     );
 };
