@@ -59,7 +59,7 @@ const dataList = [
 
 const Agents = () => {
     return (
-        <div className="bg-slate-200 py-6">
+        <div className="bg-slate-200 py-12">
             {/* header */}
             <div className="text-center space-y-2">
                 <h1 className="text-3xl md:text-5xl font-mono font-bold">Our Featured Agents</h1>
@@ -70,7 +70,7 @@ const Agents = () => {
             {/* card */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-4 md:px-12 gap-4 mt-12">
                 {
-                    dataList.map((data) => <div key={data.id} className="p-6 bg-white rounded-md">
+                    dataList.map((data) => <div key={data.id} className="p-6 bg-white rounded-md hover:scale-105 duration-500 shadow-xl">
                         <button className="btn px-6 rounded-full bg-orange-500 text-white">{data.listings}</button>
                         <div className="flex justify-center my-4">
                         <img src={data.img} alt="" className="w-32 h-32 rounded-full border-2 border-gray-300 p-3"/>
@@ -95,7 +95,6 @@ const Agents = () => {
                             <button className="btn bg-green-400 text-white hover:bg-green-600"><GiLetterBomb size={30}/> Massage</button>
                             <button className="btn bg-black text-white hover:bg-slate-600"><FaPhone size={30}/></button>
                         </div>
-
                     </div>)
                 }
 

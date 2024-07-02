@@ -3,6 +3,7 @@ import Awards from "../Awards/Awards";
 import Featured from "../Featured/Featured";
 import Hero from "../Hero/Hero";
 import Location from "../Location/Location";
+import Packege from "../Packege/Packege";
 import RecentPoparty from "../RecentProparty/RecentPoparty";
 
 
@@ -15,6 +16,7 @@ const Home = () => {
             <Awards/>
             <Location/>
             <Agents/>
+            <Packege/>
         </div>
     );
 };
