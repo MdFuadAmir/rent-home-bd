@@ -76,7 +76,7 @@ const RecentPoparty = () => {
             {/* card section */}
             <div className="px-4 md:px-12 mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {
-                    cardData.map((data) => <div key={data.id} className=" rounded-md bg-white pb-4">
+                    cardData.map((data) => <div key={data.id} className=" rounded-md bg-white pb-4 shadow-md">
                         <img src={data.img} alt="" className=" rounded-t-md"/>
                         <div className="flex justify-between items-center mt-8 px-6">
                             <div>{data.sell}</div>
