@@ -54,7 +54,7 @@ const Navber = () => {
       </div>
       <ul
         tabIndex={0}
-        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow gap-2">
           {
             links.map((link) => <li key={link.id}><a className="" href={link.path}>{link.name}</a></li>)
           }
@@ -63,7 +63,7 @@ const Navber = () => {
     <a className="btn btn-ghost text-2xl font-mono">RENT<span className="text-4xl text-green-400">UP</span></a>
   </div>
   <div className="navbar-center hidden lg:flex">
-    <ul className="menu menu-horizontal px-1">
+    <ul className="menu menu-horizontal px-1 gap-2 text-center">
          {
             links.map((link) => <li key={link.id}><a className="" href={link.path}>{link.name}</a></li>)
           }
