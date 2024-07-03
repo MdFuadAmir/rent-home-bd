@@ -1,4 +1,4 @@
-import background from"../../assets/background.jpg"
+import background from"../../assets/aboutbg.jpg"
 import about from"../../assets/about.jpg"
 const About = () => {
     return (

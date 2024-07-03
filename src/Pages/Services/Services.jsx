@@ -1,4 +1,5 @@
-import background from"../../assets/background.jpg"
+import Featured from "../../Components/Featured/Featured";
+import background from"../../assets/services.jpg"
 
 const Services = () => {
     return (
@@ -9,6 +10,7 @@ const Services = () => {
                 <h1 className="mt-2 font-bold font-sans text-2xl md:text-5xl text-white">Services -All Services</h1>
                 </div>
             </div>
+            <Featured/>
             
         </div>
     );
